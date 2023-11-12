@@ -5,9 +5,19 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
+.text-muted {
+    color: #94a1b2 !important;
+}
+
+.btn-primary {
+    color: #7f5af0 !important;
+    background: #7f5af0 !important;
+}
+
 .fw-medium {
     font-weight: 500;
 }
+
 
 .bg-dark {
     background-color: #16161a !important;
@@ -17,13 +27,10 @@ body {
     color: #fffffe !important;
 }
 
-.btn-primary {
+.text-primary {
     color: #7f5af0 !important;
 }
 
-.text-primary {
-    color: #fffffe !important;
-}
 
 .navbar.navbar-default {
     background-color: #99ccff;

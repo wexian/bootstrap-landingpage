@@ -1,53 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D A M E</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D A M E</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Welcome!</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-              </ul>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Welcome!</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container" id="hero-section">
+      <div class="row mt-5 text-center">
+        <div data-aos="fade-up" class="col-md-7 my-auto">
+          <h1 class="display-1 text-white text-center fw-bold"><span class="text-primary">Elevate</span> Experience,
+            Embrace <br> <span class="text-primary">Note</span></h1>
+          <p class="text-white text-center">Harmony in Every Moment</p>
+          <button class="btn btn-primary px-5 py-3 text-white fw-medium">EXPLORE NOW!</button>
+        </div>
+        <div class="col-md-5 mt-5 text-center">
+          <img data-aos="fade-left" data-aos-duration="3000" class="img-fluid"
+            src="https://images.rawpixel.com/image_transparent_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yMl93YXRlcmNvbG9yX2lsbHVzdHJhdGlvbl9vZl9zcGFuaXNoX3BsYXlpbmdfZ182NDJmYjllNC0xZTcwLTQ4OWYtYjFhOS01NmZkOWU0MzNjY2EucG5n.png"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container my-5">
+      <h2 class="text-white text-center fw-bold display-3">Our Products</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-dark border-0">
+            <div class="card-body bg-dark text-center mb-4">
+              <img class="img-thumbnail bg-dark border-0" style="height: 20rem"
+                src="https://furchguitars.com/wp-content/uploads/2020/02/Blue-D-CM-front-450x900.png" alt="...">
+              <h4 class="text-center text-white display-5 fw-medium mt-2">Acoustic Guitars</h4>
+              <p class="text-center text-muted">Our Collection Boasts Exceptionally Beautiful and Solid Acoustic
+                Guitars. Elevate Your Music with Unparalleled Craftsmanship and Resonance.</p>
+              <button class="btn btn-primary px-3 py-1 text-white fw-medium">SHOP ACOUSTIC</button>
             </div>
           </div>
         </div>
-      </nav>
-
-      <section>
-        <div class="container">
-            <div class="row mt-5 text-center">
-                <div data-aos="fade-up" class="col-md-7 my-auto">
-                    <h1 class="display-1 text-white text-center"><span class="fw-bold">D <span class="btn-primary">A</span> <span class="btn-primary">M</span> E</span></h1>
-                    <p class="text-white text-center">One Melody Haven for Quality Guitars and Accessories</p>
-                    <button class="btn btn-primary px-4 py-2 text-primary fw-">Shop Now!</button>
-                </div>
-                <div class="col-md-5 mt-5 text-center">
-                    <img data-aos="fade-left" data-aos-duration="3000" class="img-fluid" src="https://waldenguitars.com/wp-content/uploads/2020/04/Home-ThreeCardRow-SupraNatura-G3030RCE.png" alt="">
-                </div>
+        <hr class="text-white">
+        <div class="col-md-4">
+          <div class="card bg-dark border-0">
+            <div class="card-body bg-dark text-center mb-4">
+              <img class="img-thumbnail bg-dark border-0"
+                src="https://lzd-img-global.slatic.net/g/p/80f7e79ee1d3269b3e39d6befcb11713.png_720x720q80.png"
+                alt="...">
+              <h4 class="text-center text-white display-5 fw-medium mt-2">Electric Guitars</h4>
+              <p class="text-center text-muted">Elevate your sound with our stunning electric guitars—crafted for
+                brilliance, beauty, and unbeatable resonance.</p>
+              <button class="btn btn-primary px-3 py-1 text-white fw-medium">SHOP ELECTRIC</button>
             </div>
+          </div>
+        </div>
+        <hr class="text-white">
+        <div class="col-md-4">
+          <div class="card bg-dark border-0">
+            <div class="card-body bg-dark text-center">
+              <img class="img-thumbnail bg-dark border-0" style="height: 20rem"
+                src="https://www.sx-guitar.com/Public/Uploads/ProductCatalog/5126e3d9f35d5.png" alt="...">
+              <h4 class="text-center text-white display-5 fw-medium mt-2">Bass Guitars</h4>
+              <p class="text-center text-muted">Level up your sound game! Unleash unmatched beauty and solid build with
+                our Bass Guitars. Elevate your groove with craftsmanship that speaks to you.</p>
+              <button class="btn btn-primary px-3 py-1 text-white fw-medium">SHOP BASS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid bg-white pt-4 pb-4">
+      <h2 class="text-dark text-center fw-bold display-3 pt-4">About Us</h2>
+      <div class="container-fluid rounded bg-light">
+        <img class="img-fluid"
+          src="https://images.rawpixel.com/image_transparent_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3B4NjM0NTU1LWltYWdlLWEtam9iODU1LnBuZw.png"
+          alt="">
+        <p class="text-center fw-medium">Dame captures the spirit of connection and harmony. It represents the beauty of
+          relationships and the joy found in every interaction. Our products embody this essence, bringing people
+          together through quality, style, and shared experiences. Dame is not just a brand; it's a celebration of the
+          meaningful connections that make life extraordinary.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row d-flex justify-content-center pt-5 text-white">
+      <div class="col-md-10 col-xl-8 text-center">
+        <h2 class="mb-4 display-3 text-white">Reviews</h2>
+        <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+          Join the Dame fam's virtual hangout in our Reviews Section! It's where the real talk happens – our awesome
+          community spills the beans on why they're loving their Dame gear. Dive into the good vibes and find out why
+          the Dame life is the only life worth jamming to!
+        </p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 text-white">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" class="rounded-circle"
+            width="150" height="150" />
+        </div>
+        <h5 class="mb-3">Alexian Celada</h5>
+        <h6 class="text-primary mb-3">Web Developer</h6>
+        <p>
+          <i class='bx bxs-quote-alt-left'></i>Hey there! Just had to shout out about my experience with Dame guitars.
+          As a total newbie in the guitar realm, I stumbled upon this shop, and let me tell you, it's been a
+          game-changer. From the moment I plucked that first string, it was magic. The ease and quality of Dame guitars
+          made my first-time experience pure joy. If you're looking for an entry point into the guitar world, these guys
+          have got your back. Five stars from this rookie strummer!
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+        </ul>
+      </div>
+      <div class="col-md-4 text-white my-5">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://i.pinimg.com/originals/54/8a/65/548a659c2b06a877516d3c998f5b0939.png" class="rounded-circle"
+            width="150" height="150" />
+        </div>
+        <h5 class="mb-3">Amie Bernadette</h5>
+        <h6 class="text-primary mb-3">Music Teacher</h6>
+        <p>
+          <i class='bx bxs-quote-alt-left'></i>Wow, Dame Guitars, where have you been all my teaching life? As a
+          seasoned music instructor, I'm always on the lookout for instruments that resonate with quality. Trying out
+          Dame guitars was a revelation the craftsmanship, the tone, it's a music teacher's dream. It's not just a
+          guitar; it's an extension of my teaching philosophy. Recommending Dame to all my students because when your
+          passion meets exceptional instruments, the result is nothing short of musical brilliance!
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+        </ul>
+      </div>
+      <div class="col-md-4 text-white">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://www.shareicon.net/data/512x512/2015/09/18/103160_man_512x512.png" class="rounded-circle"
+            width="150" height="150" />
+        </div>
+        <h5 class="mb-3">Choi Ung</h5>
+        <h6 class="text-primary mb-3">Graphic Designer</h6>
+        <p>
+          <i class='bx bxs-quote-alt-left'></i>Surprised my guitar-obsessed girlfriend with a Dame guitar, and let's
+          just say, I'm now the ultimate gift-giving champ! The look on her face when she strummed those first chords
+          was priceless. Dame guitars are not just instruments; they're a passion in a sleek, beautiful package. Now,
+          every impromptu jam session feels like a celebration of her love for music, thanks to this thoughtful gift. If
+          you want to make your guitar-loving partner swoon, Dame is the way to go music and romance, all in one
+          stunning package!
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+          <i class='bx bxs-star bx-flip-horizontal' style='color:#dad73a'></i>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container mt-5">
+
+    <!-- Footer -->
+    <footer class="text-center pt-2 container-fluid text-white" style="background-color: #1c2331">
+      <section>
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold">DAME Guitars</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Acoustic Guitars</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Electric Guitars</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Bass Guitars</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> Toril Proper, Davao City, Philippines</p>
+              <p><i class="fas fa-envelope mr-3"></i> dameguitars@shop.com</p>
+              <p>+ 01 234 567 88</p>
+            </div>
+          </div>
         </div>
       </section>
+      <div class="text-center">
+        <small>© 2023 Copyright</small>
+      </div>
+    </footer>
+    <!-- Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
